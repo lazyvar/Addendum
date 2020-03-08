@@ -1,0 +1,22 @@
+{
+  "name": "Addendum",
+  "version": "0.1.0",
+  "summary": "A short description of Addendum.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mack Hasz/Addendum",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mack Hasz": "big.mack.with.pies@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Mack Hasz/Addendum.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Addendum/Classes/**/*"
+}

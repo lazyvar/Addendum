@@ -1,0 +1,6 @@
+framework module Addendum {
+  umbrella header "Addendum-umbrella.h"
+
+  export *
+  module * { export * }
+}
