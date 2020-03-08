@@ -22,7 +22,7 @@ pod 'Addendum'
 
 ## Author
 
-Mack Hasz, big.mack.with.pies@gmail.com
+[Mack Hasz](github.com/lazyvar/)
 
 ## License
 
