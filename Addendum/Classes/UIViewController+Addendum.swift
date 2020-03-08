@@ -30,4 +30,11 @@ public extension UIViewController {
   static func topmost(for window: UIWindow = UIApplication.shared.keyWindow!) -> UIViewController! {
     return window.topmostViewController()
   }
+  
+  /// Fills the viewController's view with a child's view and calls relevant UIViewController move methods.
+  func install(_ child: UIViewController) {
+    addChildViewController(child)
+    child.view.inflate(in: view)
+    child.didMove(toParentViewController: self)
+  }
 }

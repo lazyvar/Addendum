@@ -49,4 +49,17 @@ public extension UIView {
   func allSubviews() -> [UIView] {
     return subviews + subviews.flatMap { $0.allSubviews() }
   }
+  
+  /// Fills the view to all the anchors of the parent view.
+  func inflate(in parent: UIView) {
+    translatesAutoresizingMaskIntoConstraints = false
+    parent.addSubview(self)
+
+    NSLayoutConstraint.activate([
+      leadingAnchor.constraint(equalTo: parent.leadingAnchor),
+      trailingAnchor.constraint(equalTo: parent.trailingAnchor),
+      topAnchor.constraint(equalTo: parent.topAnchor),
+      bottomAnchor.constraint(equalTo: parent.bottomAnchor)
+    ])
+  }
 }
