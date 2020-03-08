@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0169F5A0241574C100CCD3E0 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F59F241574C100CCD3E0 /* Tests.swift */; };
+		0169F5CA2415812400CCD3E0 /* BoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5C92415812400CCD3E0 /* BoolSpec.swift */; };
+		0169F5CE241582BE00CCD3E0 /* CollectionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5CD241582BE00CCD3E0 /* CollectionSpec.swift */; };
+		0169F5D02415845E00CCD3E0 /* IntSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5CF2415845E00CCD3E0 /* IntSpec.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,7 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0169F59F241574C100CCD3E0 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		0169F5C92415812400CCD3E0 /* BoolSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolSpec.swift; sourceTree = "<group>"; };
+		0169F5CD241582BE00CCD3E0 /* CollectionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSpec.swift; sourceTree = "<group>"; };
+		0169F5CF2415845E00CCD3E0 /* IntSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntSpec.swift; sourceTree = "<group>"; };
 		3D3E507B7E34EFD035BD2957 /* Pods_Addendum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Addendum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Addendum_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Addendum_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,7 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
-				0169F59F241574C100CCD3E0 /* Tests.swift */,
+				0169F5C92415812400CCD3E0 /* BoolSpec.swift */,
+				0169F5CD241582BE00CCD3E0 /* CollectionSpec.swift */,
+				0169F5CF2415845E00CCD3E0 /* IntSpec.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -361,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0169F5A0241574C100CCD3E0 /* Tests.swift in Sources */,
+				0169F5CE241582BE00CCD3E0 /* CollectionSpec.swift in Sources */,
+				0169F5D02415845E00CCD3E0 /* IntSpec.swift in Sources */,
+				0169F5CA2415812400CCD3E0 /* BoolSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +548,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +569,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
