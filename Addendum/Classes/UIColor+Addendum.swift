@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
   /// Convenience for creating a color from whole RGB values.
   convenience init(red: Int, green: Int, blue: Int, alpha: CGFloat = 1.0) {
     self.init(red: CGFloat(red)/255.0, green: CGFloat(red)/255.0, blue: CGFloat(red)/255.0, alpha: alpha)

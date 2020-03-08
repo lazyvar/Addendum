@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Bool {
+public extension Bool {
   /// Non-mutating version of Swift `toggle()`. Flips the Bool's value.
   func toggled() -> Bool {
     return !self

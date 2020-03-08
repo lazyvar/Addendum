@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
   /// Removes whitespaces and newlines from the beginning and the end of the string.
   func trimmed() -> String {
     return self.trimmingCharacters(in: .whitespacesAndNewlines)

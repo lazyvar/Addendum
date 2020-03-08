@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
   /// Vertically and horizontally centers this view to the provided view. Optional x and y displacement.
   @discardableResult func center(in view: UIView, x: CGFloat = 0, y: CGFloat = 0) -> (horizontalConstraint: NSLayoutConstraint, verticalConstraint: NSLayoutConstraint) {
     return (horizontallyCenter(in: view, x: x), verticallyCenter(in: view, y: y))

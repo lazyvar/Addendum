@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIWindow {
+public extension UIWindow {
   /// Traverses the viewController hierarchy for the viewController that is smack in the users face. Assumes `rootViewController` is not nil.
   func topmostViewController() -> UIViewController! {
     func recurse(_ viewController: UIViewController) -> UIViewController {

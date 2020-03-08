@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
   /// Shorthand for pushing a viewController from a navigationController.
   func push(_ viewController: UIViewController, animated: Bool = true) {
     navigationController?.pushViewController(viewController, animated: animated)

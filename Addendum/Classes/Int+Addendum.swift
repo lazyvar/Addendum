@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
   /// Converts the Int to a String.
   func stringify() -> String {
     return String(self)

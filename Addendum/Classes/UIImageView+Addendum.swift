@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
   /// Creates an image from the context of the imageView accounting for bounds, tint, contentMode, etc.
   func imageFromContext() -> UIImage {
     defer { UIGraphicsEndImageContext() }
