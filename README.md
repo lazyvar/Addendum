@@ -1,6 +1,6 @@
 # Addendum
 
-[![CI Status](https://img.shields.io/travis/Mack Hasz/Addendum.svg?style=flat)](https://travis-ci.org/Mack Hasz/Addendum)
+[![CI Status](https://img.shields.io/travis/lazyvar/Addendum.svg?style=flat)](https://travis-ci.org/lazyvar/Addendum)
 [![Version](https://img.shields.io/cocoapods/v/Addendum.svg?style=flat)](https://cocoapods.org/pods/Addendum)
 [![License](https://img.shields.io/cocoapods/l/Addendum.svg?style=flat)](https://cocoapods.org/pods/Addendum)
 [![Platform](https://img.shields.io/cocoapods/p/Addendum.svg?style=flat)](https://cocoapods.org/pods/Addendum)
