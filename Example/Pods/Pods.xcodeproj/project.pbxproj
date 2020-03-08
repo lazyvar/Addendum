@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		0100133D447897516217CC72C0747F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		0169F59E2415745400CCD3E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0169F59D2415745400CCD3E0 /* UIKit.framework */; platformFilter = ios; };
-		0169F5A42415757D00CCD3E0 /* UIImageView+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5A32415757D00CCD3E0 /* UIImageView+Addendum.swift */; };
-		0169F5A62415766900CCD3E0 /* UIView+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5A52415766900CCD3E0 /* UIView+Addendum.swift */; };
-		0169F5A82415784B00CCD3E0 /* Collection+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5A72415784B00CCD3E0 /* Collection+Addendum.swift */; };
-		0169F5AA241578CF00CCD3E0 /* String+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5A9241578CF00CCD3E0 /* String+Addendum.swift */; };
-		0169F5AC241579BA00CCD3E0 /* UIColor+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5AB241579BA00CCD3E0 /* UIColor+Addendum.swift */; };
-		0169F5AE24157B7200CCD3E0 /* UIViewController+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5AD24157B7200CCD3E0 /* UIViewController+Addendum.swift */; };
-		0169F5B024157CAD00CCD3E0 /* Int+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5AF24157CAD00CCD3E0 /* Int+Addendum.swift */; };
-		0169F5B224157CEF00CCD3E0 /* Bool+Addenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B124157CEF00CCD3E0 /* Bool+Addenum.swift */; };
-		0169F5B424157D5400CCD3E0 /* UIWindow+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B324157D5400CCD3E0 /* UIWindow+Addendum.swift */; };
+		0169F5BE24157F5800CCD3E0 /* UIWindow+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B524157F5700CCD3E0 /* UIWindow+Addendum.swift */; };
+		0169F5BF24157F5800CCD3E0 /* Int+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B624157F5700CCD3E0 /* Int+Addendum.swift */; };
+		0169F5C024157F5800CCD3E0 /* Bool+Addenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B724157F5700CCD3E0 /* Bool+Addenum.swift */; };
+		0169F5C124157F5800CCD3E0 /* UIView+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B824157F5700CCD3E0 /* UIView+Addendum.swift */; };
+		0169F5C224157F5800CCD3E0 /* UIViewController+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5B924157F5700CCD3E0 /* UIViewController+Addendum.swift */; };
+		0169F5C324157F5800CCD3E0 /* UIImageView+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5BA24157F5700CCD3E0 /* UIImageView+Addendum.swift */; };
+		0169F5C424157F5800CCD3E0 /* String+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5BB24157F5800CCD3E0 /* String+Addendum.swift */; };
+		0169F5C524157F5800CCD3E0 /* UIColor+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5BC24157F5800CCD3E0 /* UIColor+Addendum.swift */; };
+		0169F5C624157F5800CCD3E0 /* Collection+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169F5BD24157F5800CCD3E0 /* Collection+Addendum.swift */; };
 		01904B0245AC2031E9ADD586BE7224C0 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8230D79624C34755B26B7F3C786D6BA1 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		01DAA6DD1809A39129FF7C72DDF93054 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A63842DCEE2250E2F64F2E0893BD9E /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0683FC9DDCAB80660BD11E7159607DB6 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF04FDC2C674B7404B0A289C8E7063D /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -170,15 +170,15 @@
 /* Begin PBXFileReference section */
 		00B70CFC406D8B82A8788AC916F8BEE1 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		0169F59D2415745400CCD3E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0169F5A32415757D00CCD3E0 /* UIImageView+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5A52415766900CCD3E0 /* UIView+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5A72415784B00CCD3E0 /* Collection+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5A9241578CF00CCD3E0 /* String+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5AB241579BA00CCD3E0 /* UIColor+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5AD24157B7200CCD3E0 /* UIViewController+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5AF24157CAD00CCD3E0 /* Int+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Addendum.swift"; sourceTree = "<group>"; };
-		0169F5B124157CEF00CCD3E0 /* Bool+Addenum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Addenum.swift"; sourceTree = "<group>"; };
-		0169F5B324157D5400CCD3E0 /* UIWindow+Addendum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5B524157F5700CCD3E0 /* UIWindow+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWindow+Addendum.swift"; path = "Addendum/Classes/UIWindow+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5B624157F5700CCD3E0 /* Int+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Addendum.swift"; path = "Addendum/Classes/Int+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5B724157F5700CCD3E0 /* Bool+Addenum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bool+Addenum.swift"; path = "Addendum/Classes/Bool+Addenum.swift"; sourceTree = "<group>"; };
+		0169F5B824157F5700CCD3E0 /* UIView+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Addendum.swift"; path = "Addendum/Classes/UIView+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5B924157F5700CCD3E0 /* UIViewController+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Addendum.swift"; path = "Addendum/Classes/UIViewController+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5BA24157F5700CCD3E0 /* UIImageView+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Addendum.swift"; path = "Addendum/Classes/UIImageView+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5BB24157F5800CCD3E0 /* String+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Addendum.swift"; path = "Addendum/Classes/String+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5BC24157F5800CCD3E0 /* UIColor+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Addendum.swift"; path = "Addendum/Classes/UIColor+Addendum.swift"; sourceTree = "<group>"; };
+		0169F5BD24157F5800CCD3E0 /* Collection+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Collection+Addendum.swift"; path = "Addendum/Classes/Collection+Addendum.swift"; sourceTree = "<group>"; };
 		01B303A112253F02E8471BF336A5EC10 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		042E78167E6C44CC7460866EA12944D6 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
@@ -581,15 +581,15 @@
 		48916F60F1DD8C6EA663897F591ABC8E /* Addendum */ = {
 			isa = PBXGroup;
 			children = (
-				0169F5A32415757D00CCD3E0 /* UIImageView+Addendum.swift */,
-				0169F5AB241579BA00CCD3E0 /* UIColor+Addendum.swift */,
-				0169F5A52415766900CCD3E0 /* UIView+Addendum.swift */,
-				0169F5B124157CEF00CCD3E0 /* Bool+Addenum.swift */,
-				0169F5A72415784B00CCD3E0 /* Collection+Addendum.swift */,
-				0169F5A9241578CF00CCD3E0 /* String+Addendum.swift */,
-				0169F5AF24157CAD00CCD3E0 /* Int+Addendum.swift */,
-				0169F5AD24157B7200CCD3E0 /* UIViewController+Addendum.swift */,
-				0169F5B324157D5400CCD3E0 /* UIWindow+Addendum.swift */,
+				0169F5B724157F5700CCD3E0 /* Bool+Addenum.swift */,
+				0169F5BD24157F5800CCD3E0 /* Collection+Addendum.swift */,
+				0169F5B624157F5700CCD3E0 /* Int+Addendum.swift */,
+				0169F5BB24157F5800CCD3E0 /* String+Addendum.swift */,
+				0169F5BC24157F5800CCD3E0 /* UIColor+Addendum.swift */,
+				0169F5BA24157F5700CCD3E0 /* UIImageView+Addendum.swift */,
+				0169F5B824157F5700CCD3E0 /* UIView+Addendum.swift */,
+				0169F5B924157F5700CCD3E0 /* UIViewController+Addendum.swift */,
+				0169F5B524157F5700CCD3E0 /* UIWindow+Addendum.swift */,
 				74C2B593D856A292D5F521A170D4A021 /* Pod */,
 				6A86700413BAB76E6898DD3A590AD868 /* Support Files */,
 			);
@@ -914,16 +914,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0169F5AA241578CF00CCD3E0 /* String+Addendum.swift in Sources */,
-				0169F5A62415766900CCD3E0 /* UIView+Addendum.swift in Sources */,
-				0169F5A82415784B00CCD3E0 /* Collection+Addendum.swift in Sources */,
-				0169F5B224157CEF00CCD3E0 /* Bool+Addenum.swift in Sources */,
-				0169F5AE24157B7200CCD3E0 /* UIViewController+Addendum.swift in Sources */,
-				0169F5A42415757D00CCD3E0 /* UIImageView+Addendum.swift in Sources */,
-				0169F5B024157CAD00CCD3E0 /* Int+Addendum.swift in Sources */,
+				0169F5BF24157F5800CCD3E0 /* Int+Addendum.swift in Sources */,
 				4DA00C8504F64299C501B18F9933F9E7 /* Addendum-dummy.m in Sources */,
-				0169F5AC241579BA00CCD3E0 /* UIColor+Addendum.swift in Sources */,
-				0169F5B424157D5400CCD3E0 /* UIWindow+Addendum.swift in Sources */,
+				0169F5C324157F5800CCD3E0 /* UIImageView+Addendum.swift in Sources */,
+				0169F5C624157F5800CCD3E0 /* Collection+Addendum.swift in Sources */,
+				0169F5C224157F5800CCD3E0 /* UIViewController+Addendum.swift in Sources */,
+				0169F5C424157F5800CCD3E0 /* String+Addendum.swift in Sources */,
+				0169F5C024157F5800CCD3E0 /* Bool+Addenum.swift in Sources */,
+				0169F5C124157F5800CCD3E0 /* UIView+Addendum.swift in Sources */,
+				0169F5BE24157F5800CCD3E0 /* UIWindow+Addendum.swift in Sources */,
+				0169F5C524157F5800CCD3E0 /* UIColor+Addendum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
