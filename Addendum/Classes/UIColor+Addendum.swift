@@ -10,7 +10,7 @@ import UIKit
 public extension UIColor {
   /// Convenience for creating a color from whole RGB values.
   convenience init(red: Int, green: Int, blue: Int, alpha: CGFloat = 1.0) {
-    self.init(red: CGFloat(red)/255.0, green: CGFloat(red)/255.0, blue: CGFloat(red)/255.0, alpha: alpha)
+    self.init(red: CGFloat(red) / 255.0, green: CGFloat(red) / 255.0, blue: CGFloat(red) / 255.0, alpha: alpha)
   }
 
   /// Convenience for creating a color from a hex value, expected format: #RRGGBB.
@@ -23,11 +23,10 @@ public extension UIColor {
     scanner.scanLocation = 1 // skip #
     scanner.scanHexInt32(&rgb)
 
-    self.init(
-      red:   CGFloat((rgb & 0xFF0000) >> 16)/255.0,
-      green: CGFloat((rgb &   0xFF00) >>  8)/255.0,
-      blue:  CGFloat((rgb &     0xFF)      )/255.0,
-      alpha: 1
-    )
+    let red = CGFloat((rgb & 0xFF0000) >> 16) / 255.0
+    let green = CGFloat((rgb & 0xFF00) >> 8) / 255.0
+    let blue = CGFloat((rgb & 0xFF)) / 255.0
+
+    self.init(red: red, green: green, blue: blue, alpha: 1)
   }
 }

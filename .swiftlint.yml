@@ -1,0 +1,58 @@
+disabled_rules:
+  - force_cast
+  - line_length
+  - identifier_name
+opt_in_rules:
+  - trailing_comma
+  - closure_end_indentation
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - contains_over_range_nil_comparison
+  - convenience_type
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - enum_case_associated_values_count
+  - expiring_todo
+  - explicit_enum_raw_value
+  - fatal_error_message
+  - first_where
+  - flatmap_over_map_reduce
+  - joined_default_parameter
+  - last_where
+  - legacy_random
+  - legacy_hashing
+  - let_var_whitespace
+  - missing_docs
+  - multiline_arguments
+  - multiline_arguments_brackets
+  - multiline_function_chains
+  - multiline_literal_brackets
+  - multiline_parameters
+  - multiline_parameters_brackets
+  - multiple_closures_with_trailing_closure
+  - nimble_operator
+  - operator_usage_whitespace
+  - operator_whitespace
+  - prefer_self_type_over_type_of_self
+  - pattern_matching_keywords
+  - overridden_super_call
+  - private_action
+  - private_outlet
+  - reduce_into
+  - reduce_boolean
+  - redundant_nil_coalescing
+  - shorthand_operator
+  - sorted_first_last
+  - sorted_imports
+  - switch_case_alignment
+  - syntactic_sugar
+  - toggle_bool
+  - unused_import
+trailing_comma:
+    mandatory_comma: true
+reporter: "xcode"
+

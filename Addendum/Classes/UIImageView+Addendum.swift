@@ -14,7 +14,7 @@ public extension UIImageView {
 
     UIGraphicsBeginImageContextWithOptions(bounds.size, isOpaque, 0.0)
     layer.render(in: UIGraphicsGetCurrentContext()!)
-    
+
     return UIGraphicsGetImageFromCurrentImageContext()!
   }
 }

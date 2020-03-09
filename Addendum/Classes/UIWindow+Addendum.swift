@@ -24,7 +24,7 @@ public extension UIWindow {
         }
       }
     }
-    
+
     return recurse(rootViewController!)
   }
 }
