@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
   /// Shorthand for registering UITableViewCell nib whoose name matches the type.
   /// In used conjunction with `dequeueReusableCell(withType:)`.
   func registerCellNibForClass<CellClass: UITableViewCell> (_ cellClass: CellClass.Type) {
