@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Addendum'
-  s.version          = '0.2.0'
+  s.version          = '0.4.0'
   s.summary          = 'Extensions to Swift and Cocoa'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Mack Hasz' => 'mackhasz33@gmail.com' }
   s.source           = { :git => 'https://github.com/lazyvar/Addendum.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'Addendum/Classes/**/*'
   s.frameworks = 'UIKit'
 
