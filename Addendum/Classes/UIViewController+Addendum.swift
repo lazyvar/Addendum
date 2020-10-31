@@ -33,8 +33,8 @@ public extension UIViewController {
 
   /// Fills the viewController's view with a child's view and calls relevant UIViewController move methods.
   func install(_ child: UIViewController) {
-    addChildViewController(child)
+    addChild(child)
     child.view.inflate(in: view)
-    child.didMove(toParentViewController: self)
+    child.didMove(toParent: self)
   }
 }

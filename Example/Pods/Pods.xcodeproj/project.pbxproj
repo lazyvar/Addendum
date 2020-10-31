@@ -44,6 +44,7 @@
 		38B72051F26368B657ACE1CDEA474D88 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 97C608BC7628CBDA1197D96A229362F4 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3B324746542B5868C6AA793F2EF93FEB /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF8FFBE3E43B123A0461E43E879E63 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3CFD5091F02F30ADE4EEC622C7F487C8 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FE7DCE06E24A211D5F2E9C7A1D202 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		3D2C1235254E1AC2003D9164 /* UICollectionView+Addendum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C1234254E1AC2003D9164 /* UICollectionView+Addendum.swift */; };
 		3D317145F0CA3D74E737AB0B919AB6E9 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F780876D2683F15D6BC2D791514E7DB /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		405AB644E5E32AB19AE8697B4C0CE124 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 62357AC9AF4460EE56D9049DDB42B862 /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42DB54871D10C40896045B6B525B48F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
@@ -213,6 +214,7 @@
 		390DB944092C7F30F1B435B45A0C7357 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		39B362914010E2B51EA0C8039039E608 /* Pods-Addendum_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Addendum_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3BB97B8C2D1C7E7E503EB69F0DB474F2 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
+		3D2C1234254E1AC2003D9164 /* UICollectionView+Addendum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Addendum.swift"; path = "Addendum/Classes/UICollectionView+Addendum.swift"; sourceTree = "<group>"; };
 		4354C5AE1D5932011386B5F6026CF76C /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		458F24D3629571B05D1B4D877E06BE77 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
 		499FCB32E4AE2EF082DB6322408A86CE /* Pods-Addendum_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Addendum_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -586,13 +588,14 @@
 			isa = PBXGroup;
 			children = (
 				01B225D12415B6A1008B7D63 /* Functions.swift */,
-				01B225D02415B6A1008B7D63 /* UITableView+Addendum.swift */,
 				0169F5B724157F5700CCD3E0 /* Bool+Addenum.swift */,
 				0169F5BD24157F5800CCD3E0 /* Collection+Addendum.swift */,
 				0169F5B624157F5700CCD3E0 /* Int+Addendum.swift */,
 				0169F5BB24157F5800CCD3E0 /* String+Addendum.swift */,
 				0169F5BC24157F5800CCD3E0 /* UIColor+Addendum.swift */,
+				3D2C1234254E1AC2003D9164 /* UICollectionView+Addendum.swift */,
 				0169F5BA24157F5700CCD3E0 /* UIImageView+Addendum.swift */,
+				01B225D02415B6A1008B7D63 /* UITableView+Addendum.swift */,
 				0169F5B824157F5700CCD3E0 /* UIView+Addendum.swift */,
 				0169F5B924157F5700CCD3E0 /* UIViewController+Addendum.swift */,
 				0169F5B524157F5700CCD3E0 /* UIWindow+Addendum.swift */,
@@ -948,6 +951,7 @@
 				0169F5C624157F5800CCD3E0 /* Collection+Addendum.swift in Sources */,
 				0169F5C224157F5800CCD3E0 /* UIViewController+Addendum.swift in Sources */,
 				0169F5C424157F5800CCD3E0 /* String+Addendum.swift in Sources */,
+				3D2C1235254E1AC2003D9164 /* UICollectionView+Addendum.swift in Sources */,
 				01B225D22415B6A1008B7D63 /* UITableView+Addendum.swift in Sources */,
 				0169F5C024157F5800CCD3E0 /* Bool+Addenum.swift in Sources */,
 				0169F5C124157F5800CCD3E0 /* UIView+Addendum.swift in Sources */,
@@ -1105,7 +1109,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Addendum_Example/Pods-Addendum_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1178,7 +1182,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Addendum/Addendum-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Addendum/Addendum-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1190,9 +1194,10 @@
 				PRODUCT_NAME = Addendum;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1286,7 +1291,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Addendum_Example/Pods-Addendum_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1324,7 +1329,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Addendum_Tests/Pods-Addendum_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1361,7 +1366,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Addendum_Tests/Pods-Addendum_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1400,7 +1405,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Addendum/Addendum-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Addendum/Addendum-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1412,8 +1417,9 @@
 				PRODUCT_NAME = Addendum;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
